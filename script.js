@@ -37,10 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
   });
   document.getElementById("downloadResume").addEventListener("click", function() {
-    const resumeURL = './artifacts/Yashwanth_resume.pdf';
-    const resumeURL2='./artifacts/Yashwanth_professional_resume.pdf'
-    window.open(resumeURL, '_blank');
-    window.open(resumeURL2,'_blank');
+    const resumeURL = './artifacts/Yashwanth-resume.pdf';
+    const resumeName = 'Yashwanth.S_resume';
+    window.open(resumeURL, '_blank', `title=${resumeName}`);
+  });
   });
   
-}); 
