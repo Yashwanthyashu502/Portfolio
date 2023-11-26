@@ -112,3 +112,23 @@ body{
   height: auto;
   border-radius: 6px;
 }
+.back a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+.back p{
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.back i{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+ .back p:hover{
+    color: rgb(255, 255, 255);
+  }
