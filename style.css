@@ -329,7 +329,7 @@ button:hover {
   .progress-line .ui {
     width: 60%;
   }
-  .progress-line .java{
+  .progress-line .python{
     width: 50%;
   }
   
@@ -374,7 +374,7 @@ button:hover {
   .progress-line .ui::after {
     content: "60%";
   }
-  .progress-line .java::after {
+  .progress-line .python::after {
     content: "50%";
   }
   @media (max-width: 500px) {
